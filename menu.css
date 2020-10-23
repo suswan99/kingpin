@@ -1,0 +1,155 @@
+
+#content{
+	display:flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+    flex: 0 0 50%;
+    font-size: 30px;
+	font-weight: bold;
+}
+header {
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: #e5b3b5;
+    position: relative;
+}
+#navbar {
+	color: black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.7;
+	font-size: 20px;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0 0 25%;
+    width: 100%;
+}
+#four p {
+    padding-left: 20px;
+    padding-bottom: 200px;
+    font-size: 20px;
+}
+#eight p {
+    padding-left: 20px;
+    padding-bottom: 200px;
+    font-size: 20px;
+}
+#fourimg img{
+    height: 200px;
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px; 
+    opacity: 0.8;  
+}
+#fourimg img:hover{
+    opacity: 1;
+}
+#eightimg img:hover{
+    opacity: 1;
+}
+
+#eightimg img {
+    height: 200px;
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px; 
+    opacity: 0.8;  
+}
+#descript p{
+    color: #e9aa2d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 20px;
+}
+#descript h2{
+    padding-left: 20px;
+    color:black;
+}
+#popular{
+    padding: 10px 10px 10px 10px;
+}
+#popular p{
+    color: #e9aa2d;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#popular img {
+    height: 300px;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    opacity: 0.8;  
+}
+#popular img:hover{
+    opacity: 1;
+}
+#top {
+    display:flex;
+    align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+    flex: 0 0 33.33%;
+
+}
+#bottom {
+    display:flex;
+    align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+    flex: 0 0 33.33%;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#navbar:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+#content .logo {
+    transform: scale(0.5, 0.5);
+}
+body {
+	margin: 0;
+	background: white ;
+	font-family: 'Playfair Display';	
+}
+.social-media img {
+	padding-right: 30px;
+	height: 30px;
+	width: 30px;
+}
+#footer {
+	font-family: roboto;
+	position: relative;
+  	bottom: 0;
+  	width: 100%;
+	padding: 0 2em;
+	margin: 0;
+	border: 0;
+	text-align: center;
+}
+
+#footer img{
+	display: inline-block;
+}
+.contact{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

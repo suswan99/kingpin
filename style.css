@@ -1,0 +1,173 @@
+
+header {
+	padding: 0;
+	margin: 0;
+}
+#title {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 50%;
+	margin: 0;
+	width: 100%;
+}
+#title .KingPin {
+	font-size: 75px;
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+}
+#donut {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	line-height: ;
+}
+.bite{
+	height: 100px;
+	width: 100px;
+	opacity: 0.7;
+	padding-top: 10px;
+	margin: 0;
+}
+.bite:hover{
+	opacity: 1;
+	animation-name: spin;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes spin{
+	100% {transform: rotate(360deg);}
+}
+
+#navbar {
+	color: black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.7;
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#navbar:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+#message {
+	font-size: 28px;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	padding-left: 10px;
+	color: #101010;
+	opacity: 0.8;
+}
+body {
+	margin: 0;
+	background: #e5b3b5 ;
+
+	font-family: 'Playfair Display';
+	
+}
+#info{
+	text-align: center;
+}
+#info h1{
+	color: #d1a44b;
+}
+#info p{
+	color: black;
+}
+#main {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.mdonuts {
+	height:400px;
+	opacity: 0.8;
+}
+.mdonuts:hover {
+	opacity: 1;
+}
+.glow {
+	height: 300px;
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+.glow:hover{
+	opacity: 1;
+}
+.milkshake {
+	height: 300px;
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+.milkshake:hover{
+	opacity: 1;
+}
+.db{
+	height: 300px;
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+.db:hover{
+	opacity: 1;
+}
+.social-media img {
+	padding-right: 30px;
+	height: 30px;
+	width: 30px;
+}
+
+#footer {
+	font-family: roboto;
+	position: relative;
+  	bottom: 0;
+  	width: 100%;
+	padding: 0 2em;
+	margin: 0;
+	border: 0;
+	text-align: center;
+}
+
+#footer img{
+	display: inline-block;
+}
+.contact{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 30px 30px 0px;
+	text-align: center;
+}
+.button {
+	padding: 5px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	font-family: roboto;
+  }
+.button:hover {
+	background-color: #977737
+}
